@@ -9,12 +9,16 @@ Assuming you're already at the GitHub repo, clone the repo and open it in the co
 
 ## Inputting tasks/subtasks
 
-Before running the program, the user must write their tasks and subtasks in a YAML file. YAML is quite simple. The core of YAML is the key-value pair. You must write your tasks/subtasks in this form.
+Before running the program, the user must write their tasks and subtasks in a YAML file. YAML is quite simple. The core of YAML is the key-value pair. You must write your tasks/subtasks in this form. If you have separate categories, put a hastag in between the two blocks.
 
 ~~~yaml
 task1: not done
-task2: done
+task2: not done
 etc: etc
+#
+task1: not done
+task2: not done
+etc2: etc2
 ~~~
 
 Once you are ready, run the program.
