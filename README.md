@@ -29,6 +29,6 @@ Once you are ready, run the program.
 
 ## Building the calendar
 
-When the program is run, the program reads in the YAML content. Then, the key-value pairs are transformed into three separate dictionaries: one for standard tasks, one for relaxation, and one for exercise.
+When the program is run, the program reads in the YAML content. Then, the key-value pairs are transformed into three separate dictionaries: one for standard tasks, one for relaxation, and one for exercise. This is done by splitting the file content by newlines and using slicing to determine which tasks belong to which dictionaries.
 
 ## LOCKIN Menu
