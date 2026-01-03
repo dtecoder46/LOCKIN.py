@@ -7,6 +7,10 @@ A task management app that helps you limit procrastination
 
 Assuming you're already at the GitHub repo, clone the repo and open it in the code editor of your choice. Then, ...
 
+## Calculating function runtimes
+
+The time module is used for this purpose. A dedicated stopwatch function will record the start time, execute a function passed into it, and record the time it took for the function to run (aka the end time)
+
 ## Inputting tasks/subtasks
 
 Before running the program, the user must write their tasks and subtasks in a YAML file. YAML is quite simple. The core of YAML is the key-value pair. You must write your tasks/subtasks in this form. If you have separate categories, put a hastag in between the two blocks.
